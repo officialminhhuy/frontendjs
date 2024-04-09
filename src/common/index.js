@@ -1,5 +1,4 @@
-const backendDomin = "https://backendjs-61u3.onrender.com"
-
+const backendDomin = process.env.REACT_APP_BACKEND_URL;
 const SummaryApi = {
     signUP : {
         url : `${backendDomin}/api/signup`,
